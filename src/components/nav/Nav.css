@@ -1,0 +1,20 @@
+nav ul li a{
+    @apply px-8 uppercase font-title text-base dark:text-slate-500 text-slate-600 transition-colors ease-out duration-300;
+}
+nav ul li.center-option a {
+    @apply px-2 md:px-8 uppercase text-2xl font-title dark:text-slate-500 text-slate-600 hover:text-slate-800 dark:hover:text-slate-400 transition-all ease-out duration-300;
+}
+nav ul li a:hover{
+    @apply text-slate-400;
+}
+nav ul li a.active{
+    @apply bg-slate-800 rounded-md py-1;
+}
+
+#sideMenu ul li a{
+    @apply uppercase font-title dark:text-slate-500 text-slate-600 transition-colors ease-out duration-300;
+}
+
+#sideMenu ul li a:hover{
+    @apply text-slate-400;
+}
