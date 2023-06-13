@@ -12,7 +12,7 @@ nav ul li a.active{
 }
 
 #sideMenu ul li a{
-    @apply uppercase font-bebas dark:text-slate-500 text-slate-600 transition-colors ease-out duration-300;
+    @apply uppercase font-bebas dark:text-slate-500 text-slate-600 transition-colors ease-out duration-300 z-40;
 }
 
 #sideMenu ul li a:hover{

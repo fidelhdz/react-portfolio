@@ -5,7 +5,7 @@ import './HeroSection.css';
 const HeroSection = () => {
   return (
     <section className="h-screen w-full pt-12 pb-3 px-3 box-border border-l-[3px] border-lime-500">
-      <div id='hero-object' className="object-center">
+      <div id='hero-object' className="object-center absolute lg:left-28 left-3">
         <p className='font-bebas text-base'>&mdash; Hi there! I'm a...</p>
         <span className="scroll-text h-[120px] overflow-hidden block">
           <ul className='uppercase text-[60px] leading-[60px] text-white font-raj font-extralight'>
@@ -19,7 +19,7 @@ const HeroSection = () => {
         </span>
         <div className="cta-group mt-5">
           <a className="btn btn-outline" href="#contact">Let's do business</a>
-          <a className="btn btn-outline ml-5" href={MyResume} download={MyResume}>Download Resume</a>
+          <a className="btn btn-outline lg:ml-5 ml-3" href={MyResume} download={MyResume}>Download Resume</a>
         </div>
       </div>
 
