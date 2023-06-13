@@ -8,7 +8,7 @@ const SocialHeader = () => {
 
     return (
       <>
-    <div className="social-header" data-aos="fade-up" data-aos-duration="1200">
+    <div className="social-header hidden md:flex md:flex-col gap-4 absolute bottom-14 right-3">
         <a href={ linkedin_url } target="_blank"><FaLinkedin /></a>
         <a href={ codepen_url } target="_blank"><FaCodepen /></a>
         <a href={ dribbble_url } target="_blank"><FaDribbble /></a>   

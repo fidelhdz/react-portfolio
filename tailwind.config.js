@@ -7,8 +7,9 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Dosis', 'sans-serif'],
-      title: ['Bebas Neue'],
+      roboto: ['Roboto', 'sans-serif'],
+      bebas: ['Bebas Neue'],
+      raj: ['Rajdhani'],
       serif: ['Merriweather', 'serif'],
     },
   },

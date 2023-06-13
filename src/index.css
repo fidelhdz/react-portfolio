@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300&family=Roboto:wght@300;400&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,5 +9,16 @@ html {
 }
 
 section {
-    @apply overflow-hidden;
+    @apply overflow-hidden dark:bg-slate-900 dark:text-slate-500 relative;
+}
+
+section #hero-object {
+    position: absolute;
+    left: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn {
+    @apply border-lime-400 border-[1px] py-1 px-5 dark:text-white bg-transparent uppercase dark:hover:text-slate-500 transition-all duration-300 ease-out font-raj;
 }
